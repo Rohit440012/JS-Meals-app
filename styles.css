@@ -1,0 +1,100 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background: linear-gradient(to right, cyan, rgb(80, 255, 80));
+}
+h1 {
+  text-align: center;
+  margin-bottom: 0.6rem;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.container input {
+  margin-bottom: 1rem;
+  padding: 0.2rem 0.5rem;
+  font-size: 1.1rem;
+  outline: none;
+  border: none;
+  border-radius: 0.2rem;
+}
+.card {
+  background-color: white;
+  color: black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  border-radius: 0.5rem;
+  box-shadow: 0 0 15px 2px rgba(0, 0, 0, 0.7);
+}
+.card img {
+  max-width: 25rem;
+  object-fit: cover;
+  margin-bottom: 1rem;
+}
+.card button {
+  max-width: 8rem;
+  margin-top: 1rem;
+  border: none;
+  outline: none;
+  padding: 0.5rem 1rem;
+  background-color: purple;
+  color: white;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+.card button:hover {
+  opacity: 0.6;
+}
+.no-match {
+  font-size: 2rem;
+  margin-top: 2rem;
+}
+nav {
+  margin-bottom: 1rem;
+}
+nav ul {
+  display: flex;
+}
+nav ul li {
+  margin-left: 1rem;
+  list-style: none;
+}
+nav ul li a {
+  text-decoration: none;
+  color: purple;
+}
+.hidden {
+  display: none;
+}
+a:active {
+  color: white;
+}
+.instructions {
+  margin: 1rem;
+  text-align: center;
+  max-width: 60%;
+}
+.instructions span {
+  font-weight: 600;
+  color: darkslategrey;
+}
+.card .details {
+  background: none;
+  color: purple;
+}
+.instructions .recipe {
+  color: black;
+  font-weight: 300;
+  margin: 2rem;
+}
